@@ -5,7 +5,7 @@ public class Account {
     //DECLARAÇÃO DOS ATRIBUTOS DA CLASSE
     private Integer number;
     private String holder;
-    private Double balance;
+    protected Double balance;
 
     //MÉTODO CONSTRUTOR SEM ATRIBUTO
     public Account() {
